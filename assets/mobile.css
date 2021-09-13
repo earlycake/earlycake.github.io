@@ -1,8 +1,5 @@
 
 @media only screen and (max-width : 720px) {
-    #myCanvas{
-        display: none;
-    }
 
     #bgm{
         position: fixed;
@@ -12,13 +9,7 @@
         height: 100vh;
     }
 
-    #bg{
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 9;
-        height: 100vh;
-    }
+
 
     /* topbar */
     .topbar{
@@ -90,6 +81,7 @@
         top: 70px;
         width: 90vw;
         left: 3vw;
+        z-index: 99999;
     }
 
     .l-cntn img{
@@ -128,6 +120,7 @@
         top: 160px;
         width: 90vw;
         left: 3vw; 
+        z-index: 99999;
     }
 
     .buyon img{
@@ -139,6 +132,7 @@
         position: relative;
         left: 3vw;
         top: 180px;
+        z-index: 99999;
     }
 
     .tkc-box{
@@ -245,6 +239,7 @@
         top: 300px;
         background-color: transparent;
         height: 700px;
+        z-index: 99999;
     }
 
     .vbox{
@@ -273,6 +268,7 @@
         top: 300px;
         width: 90vw;
         left: 3vw;
+        z-index: 99999;
     }
 
     .footer{
@@ -282,6 +278,7 @@
         width: 100vw;
         left: -8px;
         background-color: #1A1A2E;
+        z-index: 99999;
     }
 
     .ft{

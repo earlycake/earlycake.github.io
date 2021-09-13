@@ -13,10 +13,8 @@ body{
 
 
 @media only screen and (min-width : 722px) {
-    #myCanvas{
-        position: relative;
-        top: 100px;
-        left:-10px;
+    #bgm{
+        display: none;
     }
     .fadein {
         opacity: 0;
