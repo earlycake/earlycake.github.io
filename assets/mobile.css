@@ -107,7 +107,7 @@
 
     #cntn-btn{
         padding: 10px 60px;
-        background-color: #df2b49;
+        background-color: #4c1699;
         text-decoration: none;
         position: relative;
         top: 30px;
@@ -117,7 +117,7 @@
     }
 
     #cntn-btn:hover{
-        background-color: #E94560;
+        background-color: black;
         border: transparent;
         color: white;
         box-shadow: 1px 1px 10px #20202077;
