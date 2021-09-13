@@ -53,8 +53,8 @@
         text-decoration: none;
         font-size: 25px;
         padding: 5px 10px;
-        background-color: black;
-        border-radius: 10px;
+        background-color: rgb(228, 151, 36);
+        border-radius: 100%;
         box-shadow: 1px 1px 10px #20202077;
     }
 
@@ -296,6 +296,8 @@
 
     .ft img{
         width: 80%;
+        position: relative;
+        left: 30px;
     }
 
     .ft a{
@@ -303,6 +305,11 @@
         text-decoration: none;
         color: white;
         font-size: 25px;
+        position: relative;
+        top: 20px;
+        margin-right: 10px;
+        text-align: center;
+        left: 90px;
     }
 
     .ft a:hover{
