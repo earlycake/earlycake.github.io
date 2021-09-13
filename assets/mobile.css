@@ -1,0 +1,339 @@
+
+@media only screen and (max-width : 720px) {
+    #myCanvas{
+        display: none;
+    }
+
+    #bgm{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        height: 100vh;
+    }
+
+    #bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        height: 100vh;
+    }
+
+    /* topbar */
+    .topbar{
+        position: fixed;
+        z-index: 99999999999999;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        height: 50px;
+    }
+
+    #tb-name{
+        display: none;
+    }
+
+    .topbar h1{
+        display: none;
+    }
+
+    .topbar img{
+        width: 40px;
+        position: absolute;
+        top: 20px;
+        left: 30px
+    }
+
+    .icon {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        padding: 5px 10px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px #20202077;
+    }
+
+    .popup{
+        position: fixed;
+        z-index: 99999999;
+        background-color: #E05D5D;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        padding-top: 100px;
+        display: none;
+    }
+
+    .popup a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .popup img{
+        width: 80vw;
+        position: absolute;
+        bottom: 20vh;
+        left: 9vw;
+    }
+
+    .cntn{
+        position: relative;
+        top: 70px;
+        width: 90vw;
+        left: 3vw;
+    }
+
+    .l-cntn img{
+        width: 100%;
+        animation: mymove infinite;
+        animation-duration: 3.5s;
+    }
+    
+    @keyframes mymove {
+        /* from {top: 0px;}
+        to {bottom: 50px;} */
+        0%   {transform: translate3d(0,0,0);}
+        40%  {transform: translate3d(0,15%,0);}
+    }
+
+    #cntn-btn{
+        padding: 10px 60px;
+        background-color: #df2b49;
+        text-decoration: none;
+        position: relative;
+        top: 30px;
+        text-align: center;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #cntn-btn:hover{
+        background-color: #E94560;
+        border: transparent;
+        color: white;
+        box-shadow: 1px 1px 10px #20202077;
+    }
+
+    .buyon{
+        position: relative;
+        top: 160px;
+        width: 90vw;
+        left: 3vw; 
+    }
+
+    .buyon img{
+        width: 100%;
+    }
+
+    .tokenomic{
+        width: 90vw;
+        position: relative;
+        left: 3vw;
+        top: 180px;
+    }
+
+    .tkc-box{
+        display: inline-table;
+        width: 88%;
+        height: 200px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #FF2442;
+        color: white;
+    }
+
+    #tkc-box:hover{
+        box-shadow: 1px 1px 10px #20202077;
+        position: relative;
+        top: -5px
+    }
+
+    .gamesoon{
+        width: 90vw;
+        position: relative;
+        left: 3vw;
+        top: 230px;
+    }
+
+    .gamesoon img{
+        width: 100%;
+    }
+
+    #soon{
+        display: none;
+    }
+
+    .store{
+        width: 90vw;
+        position: relative;
+        left: 3vw;
+        top: 300px;
+        height: 600px;
+        text-align: left;
+    }
+
+    .str{
+        position: relative;
+        width: 100%;
+        left: -10px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        padding-left: 10px;
+        height: 500px;
+    }
+
+    .str-box{
+        position: relative;
+        display: inline-table;
+        height: 100%;
+        background-color: white;
+        width: 300px;
+        color: black;
+        margin-right: 20px;
+        padding: 15px;
+    }
+
+    .str-box img{
+        width: 100%;
+    }
+
+    .str-box h1{
+        position: relative;
+        top: -30px;
+        left: 20px
+    }
+
+    #el{
+        position: relative;
+        top: -50px; 
+        left: 20px
+    }
+
+    #status{
+        position: absolute;
+        top: 5px;
+        left: 35px;
+        font-weight: bolder;
+    }
+
+    .str-box a{
+        text-decoration: none;
+        padding: 10px 60px;
+        color: white;
+        background-color: #df2b49;
+        position: relative;
+        top: -30px;
+        left: 50px;
+    }
+
+    .about{
+        position: relative;
+        width: 90vw;
+        left: 3px;
+        top: 300px;
+        background-color: transparent;
+        height: 700px;
+    }
+
+    .vbox{
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .container{
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    .rm{
+        position: relative;
+        top: 300px;
+        width: 90vw;
+        left: 3vw;
+    }
+
+    .footer{
+        position: relative;
+        top: 350px;
+        height: 500px;
+        width: 100vw;
+        left: -8px;
+        background-color: #1A1A2E;
+    }
+
+    .ft{
+        width: 90%;
+        margin-right: 20px;
+        display: inline-block;
+        position: relative;
+        top: 70px;
+        left: 4%;
+        text-align: left;
+    }
+
+    .ft img{
+        width: 80%;
+    }
+
+    .ft a{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    .ft a:hover{
+        color: #df2b49;
+    }
+
+    #play{
+        display: none;
+    }
+
+    .gmobile{
+        border: 2px solid #1A1A2E;
+        position: relative;
+        top: 100px;
+    }
+
+    .styl{
+        display: none;
+    }
+
+    .pvp{
+        display: none;
+    }
+
+    .plyrinfo{
+        display: none;
+    }
+
+    #atkbtn{
+        display: none; 
+    }
+  
+
+}

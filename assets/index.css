@@ -1,0 +1,370 @@
+
+
+body{
+    background-color: #35D0BA;
+    color:white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+
+@media only screen and (min-width : 722px) {
+    #myCanvas{
+        position: relative;
+        top: 100px;
+        left:-10px;
+    }
+    .fadein {
+        opacity: 0;
+        -moz-transition: opacity 1.5s;
+        -webkit-transition: opacity 1.5s;
+        -o-transition: opacity 1.5s;
+        transition: opacity 1.5s;
+    }
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+
+
+    #bgm{
+        display: none;
+    }
+
+    .topbar{
+        position: absolute;
+        z-index: 999999999999;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 70px;
+        background-color: #FFF338;
+    }
+
+    #tb{
+        position: absolute;
+        left: 30px; 
+    }
+
+    #tb-pic{
+        position: absolute;
+        left: 43vw;
+    }
+
+
+    .topbar img{
+        height: 50px;
+        position: absolute;
+        left: 30px;
+        top: 7.5px
+    }
+
+    .topbar h1{
+        font-size: 25px;
+        position: absolute;
+        left: 100px;
+        color: black
+    }
+
+    #tb-name{
+        position: absolute;
+        left: 90px;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .popup{
+        display: none;
+    }
+
+    #hm-logo{
+        width: 30vw;
+        position: relative;
+        top: 150px;
+        left: -20vw;
+    }
+
+    .cntn{
+        position: relative;
+        width: 100vw;
+        left: -9px;
+        top: 50px;
+        background-color: #FFF338;
+        height: 700px;
+        color: #4c1699;
+    }
+
+    .l-cntn{
+        position: absolute;
+        width: 35%;
+        top: 50px;
+        left: 15vw;
+    }
+
+    .l-cntn img{
+        width: 100%;
+        position: relative;
+        animation: mymove infinite;
+        animation-duration: 3.5s;
+        /* Enable hardware acceleration to fix laggy transitions */
+    }
+
+    @keyframes mymove {
+        /* from {top: 0px;}
+        to {bottom: 50px;} */
+        0%   {transform: translate3d(0,0,0);}
+        40%  {transform: translate3d(0,15%,0);}
+    }
+
+    .r-cntn{
+        position: absolute;
+        width: 35%;
+        top: 50px;
+        right: 15vw;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    #cntn-btn{
+        padding: 10px 60px;
+        background-color: #4c1699;
+        text-decoration: none;
+        position: absolute;
+        bottom: 30px;
+        left: 43%;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #cntn-btn:hover{
+        background-color: black;
+        border: transparent;
+        color: white;
+        box-shadow: 1px 1px 10px #20202077;
+    }
+
+    .buyon{
+        width: 80vw;
+        position: relative;
+        left: 10vw;
+        top: 100px;
+    }
+
+    .buyon img{
+        height: 50px;
+        margin-right: 40px;
+    }
+
+    .tokenomic{
+        width: 80vw;
+        position: relative;
+        left: 10vw;
+        top: 150px;
+    }
+
+    .tkc-box{
+        display: inline-table;
+        width: 26%;
+        height: 200px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #FF2442;
+        color: white;
+    }
+
+    #tkc-box:hover{
+        box-shadow: 1px 1px 10px #20202077;
+        position: relative;
+        top: -5px
+    }
+
+    .vbox{
+        position: relative;
+        display: inline-table;
+        width: 15%;
+        margin-right: 10px;
+        height: 250px;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .vbox h1{
+        margin-bottom: 0;
+    }
+
+
+    .gamesoon{
+        width: 80vw;
+        position: relative;
+        left: 10vw;
+        top: 200px;
+    }
+
+    #soon{
+        width: 100%;
+        height: 600px;
+        position: relative;
+        top: 50px;
+    }
+
+    .store{
+        width: 80vw;
+        position: relative;
+        left: 10vw;
+        top: 300px;
+        height: 600px;
+        text-align: left;
+    }
+
+    .str{
+        position: relative;
+        width: 100%;
+        left: -10px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        padding-left: 10px;
+        height: 500px;
+    }
+
+    .str-box{
+        position: relative;
+        display: inline-table;
+        height: 100%;
+        background-color: white;
+        width: 300px;
+        color: black;
+        margin-right: 20px;
+        padding: 15px;
+    }
+
+    .str-box img{
+        width: 100%;
+    }
+
+    .str-box h1{
+        position: relative;
+        top: -30px;
+        left: 20px
+    }
+
+    #el{
+        position: relative;
+        top: -50px; 
+        left: 20px
+    }
+
+    #status{
+        position: absolute;
+        top: 5px;
+        left: 35px;
+        font-weight: bolder;
+    }
+
+    .str-box a{
+        text-decoration: none;
+        padding: 10px 60px;
+        color: white;
+        background-color: #df2b49;
+        position: relative;
+        top: -30px;
+        left: 50px;
+    }
+
+
+    .about{
+        position: relative;
+        width: 100vw;
+        left: -9px;
+        top: 300px;
+        background-color: transparent;
+        height: 700px;
+    }
+
+    .rm{
+        position: relative;
+        top: 300px;
+        width: 90vw;
+        left: 3vw;
+    }
+
+    .container{
+        border-radius: 20px;
+        position: relative;
+        width: 40%;
+        display: inline-table;
+        height: 250px;
+        text-align: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: white;
+        color: #4c1699;
+        font-weight: bolder;
+    }
+
+    .footer{
+        position: relative;
+        top: 350px;
+        height: 400px;
+        width: 100vw;
+        left: -10px;
+        background-color: #1A1A2E;
+    }
+
+    .ft{
+        width: 30%;
+        margin-right: 20px;
+        display: inline-block;
+        position: relative;
+        top: 70px;
+        text-align: left;
+    }
+
+    .ft img{
+        width: 80%;
+    }
+
+    .ft a{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    .ft a:hover{
+        color: #df2b49;
+    }
+
+    .gmobile{
+        display: none;
+    }
+
+}
